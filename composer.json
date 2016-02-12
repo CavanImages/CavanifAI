@@ -1,17 +1,14 @@
 {
-    "name": "league/:package_name",
-    "description": ":package_description",
+    "name": "CavanImages/cavanifai",
+    "description": "Clarifai Client",
     "keywords": [
-        "league",
-        "package"
+        "Clarifai"
     ],
-    "homepage": "https://github.com/php-loep/:package_name",
+    "homepage": "https://github.com/CavanImages/cavanifai",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": "author_email@example.com",
-            "homepage": "http://author-website.example.com",
+            "name": "LzrBim",
             "role": "Developer"
         }
     ],
@@ -23,12 +20,12 @@
     },
     "autoload": {
         "psr-4": {
-            "League\\Skeleton\\": "src"
+            "CavanImages\\CavanifAI\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "League\\Skeleton\\Test\\": "tests"
+            "CavanImages\\CavanifAI\\Test\\": "tests"
         }
     },
     "extra": {
